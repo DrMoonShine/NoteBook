@@ -167,7 +167,7 @@ namespace NoteBook
             post = Console.ReadLine();
             Console.WriteLine("Оставьте заметку");
             text = Console.ReadLine();
-            int id = allNotes.Count;
+            int id = 0;
             while (allNotes.ContainsKey(id))
             {
                 id++;
