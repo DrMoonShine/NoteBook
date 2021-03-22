@@ -1,0 +1,13 @@
+D:\Карантин\NoteBook\NoteBook\bin\Debug\netcoreapp3.1\NoteBook.exe
+D:\Карантин\NoteBook\NoteBook\bin\Debug\netcoreapp3.1\NoteBook.deps.json
+D:\Карантин\NoteBook\NoteBook\bin\Debug\netcoreapp3.1\NoteBook.runtimeconfig.json
+D:\Карантин\NoteBook\NoteBook\bin\Debug\netcoreapp3.1\NoteBook.runtimeconfig.dev.json
+D:\Карантин\NoteBook\NoteBook\bin\Debug\netcoreapp3.1\NoteBook.dll
+D:\Карантин\NoteBook\NoteBook\bin\Debug\netcoreapp3.1\NoteBook.pdb
+D:\Карантин\NoteBook\NoteBook\obj\Debug\netcoreapp3.1\NoteBook.csprojAssemblyReference.cache
+D:\Карантин\NoteBook\NoteBook\obj\Debug\netcoreapp3.1\NoteBook.AssemblyInfoInputs.cache
+D:\Карантин\NoteBook\NoteBook\obj\Debug\netcoreapp3.1\NoteBook.AssemblyInfo.cs
+D:\Карантин\NoteBook\NoteBook\obj\Debug\netcoreapp3.1\NoteBook.csproj.CoreCompileInputs.cache
+D:\Карантин\NoteBook\NoteBook\obj\Debug\netcoreapp3.1\NoteBook.dll
+D:\Карантин\NoteBook\NoteBook\obj\Debug\netcoreapp3.1\NoteBook.pdb
+D:\Карантин\NoteBook\NoteBook\obj\Debug\netcoreapp3.1\NoteBook.genruntimeconfig.cache
