@@ -121,15 +121,9 @@ namespace NoteBook
             }
             while (check == false)
             {
-                Console.WriteLine("Введите дату рождения в формате год.месяц.день");
+                Console.WriteLine("Введите дату рождения в формате год.месяц.день или год месяц день");
                 string d = Console.ReadLine();
-                /*while (d.Contains('.') == false)//проверка наличия точки после года
-                {
-                    Console.WriteLine("Неверный формат, введите дату еще раз");
-                    d = Console.ReadLine();
-                }*/
-                string[] temp = d.Split('.', ' ');
-                
+                string[] temp = d.Split('.', ' ');             
                 while(temp.Length != 3)
                 {
                     Console.WriteLine("Неверный формат! Попробуйте еще раз");
