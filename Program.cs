@@ -305,6 +305,7 @@ namespace NoteBook
                                     s = Console.ReadLine();
                                 }
                                 allNotes[id].Name = s;
+                                Console.WriteLine("Изменения внесены!");
                                 break;
                             }
                         case "surname":
@@ -317,12 +318,14 @@ namespace NoteBook
                                     s = Console.ReadLine();
                                 }
                                 allNotes[id].Surname = s;
+                                Console.WriteLine("Изменения внесены!");
                                 break;
                             }
                         case "patname":
                             {
                                 Console.WriteLine("Введите новое отчество");
                                 allNotes[id].PatName = Console.ReadLine();
+                                Console.WriteLine("Изменения внесены!");
                                 break;
                             }
                         case "phonenumber":
@@ -341,6 +344,7 @@ namespace NoteBook
                                     s = Console.ReadLine();
                                 }
                                 allNotes[id].PatName = s;
+                                Console.WriteLine("Изменения внесены!");
                                 break;
                             }
                         case "country":
@@ -353,24 +357,28 @@ namespace NoteBook
                                     s = Console.ReadLine();
                                 }
                                 allNotes[id].Country = s;
+                                Console.WriteLine("Изменения внесены!");
                                 break;
                             }
                         case "company":
                             {
                                 Console.WriteLine("Введите новое название компании");
                                 allNotes[id].Company = Console.ReadLine();
+                                Console.WriteLine("Изменения внесены!");
                                 break;
                             }
                         case "post":
                             {
                                 Console.WriteLine("Введите новую должность");
                                 allNotes[id].Post = Console.ReadLine();
+                                Console.WriteLine("Изменения внесены!");
                                 break;
                             }
                         case "text":
                             {
                                 Console.WriteLine("Введите новую заметку");
                                 allNotes[id].Text = Console.ReadLine();
+                                Console.WriteLine("Изменения внесены!");
                                 break;
                             }
 
@@ -426,6 +434,7 @@ namespace NoteBook
                                 }
                                 DateTime t = new DateTime(year, month, day);
                                 allNotes[id].Date = t;
+                                Console.WriteLine("Изменения внесены!");
                                 break;
                             }
                         case "end":
