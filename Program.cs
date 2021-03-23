@@ -366,7 +366,7 @@ namespace NoteBook
                             }
                         case "text":
                             {
-                                Console.WriteLine("Введите новую должность");
+                                Console.WriteLine("Введите новую заметку");
                                 allNotes[id].Text = Console.ReadLine();
                                 break;
                             }
