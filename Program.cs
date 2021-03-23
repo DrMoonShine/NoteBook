@@ -123,8 +123,19 @@ namespace NoteBook
             {
                 Console.WriteLine("Введите дату рождения в формате год.месяц.день");
                 string d = Console.ReadLine();
-                string[] temp = d.Split('.');
-
+                /*while (d.Contains('.') == false)//проверка наличия точки после года
+                {
+                    Console.WriteLine("Неверный формат, введите дату еще раз");
+                    d = Console.ReadLine();
+                }*/
+                string[] temp = d.Split('.', ' ');
+                
+                while(temp.Length != 3)
+                {
+                    Console.WriteLine("Неверный формат! Попробуйте еще раз");
+                    d = Console.ReadLine();
+                    temp = d.Split('.', ' ');
+                }
                 if (int.TryParse(temp[0], out year) == false)
                 {
                     Console.WriteLine("Год введен не верно");
@@ -143,16 +154,13 @@ namespace NoteBook
                 }
                 else if (month < 1 || month > 12)
                 {
-                    Console.WriteLine($"Месяц {month} не существует, попробуйте еще раз");
+                    Console.WriteLine($"Месяц под номером {month} не существует, попробуйте еще раз");
                 }
                 else if (day < 1 || day > 31)
                 {
                     Console.WriteLine($"В месяце нет {day}го дня");
                 }
-                else if(string.IsNullOrEmpty(temp[0]) || string.IsNullOrEmpty(temp[1]) || string.IsNullOrEmpty(temp[2]))
-                {
-                    Console.WriteLine("Все поля должны быть заполнены");
-                }
+                
                 else
                 {
                     check = true;
