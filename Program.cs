@@ -259,7 +259,7 @@ namespace NoteBook
             }
             else
             {
-                Console.WriteLine($"Id {id} не существует");
+                Console.WriteLine($"Id {id} не существует, вернитесь к списку команд");
             }
             Console.WriteLine("Введите команду back для возвращения к списку команд");
             string back = Console.ReadLine();
