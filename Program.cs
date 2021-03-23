@@ -285,7 +285,7 @@ namespace NoteBook
             }
             if (allNotes.ContainsKey(id))
             {
-                Console.WriteLine("Выберете поле для редактирования\n. Для выбора нужно ввести название поля(name(имя),surname(фамилия),patname(отчество),phonenumber(номер телефона)\n,country(страна),company(организация),post(должность),text(заметки),date(дата),end(закончить редоктирование)");
+                Console.WriteLine("Выберете поле для редактирования.\nДля выбора нужно ввести название поля(name(имя),surname(фамилия),patname(отчество),phonenumber(номер телефона)\ncountry(страна),company(организация),post(должность),text(заметки),date(дата),end(закончить редоктирование)");
                 bool checkExit = false;
                 while(checkExit == false)
                 {
@@ -447,7 +447,7 @@ namespace NoteBook
             Console.WriteLine("Это записная книжка");
             Console.WriteLine("Доступные команды: ");
             Console.WriteLine("create(добавить новую запись)");
-            Console.WriteLine("readall(посмотреть все записи)");
+            Console.WriteLine("readall(посмотреть все записи) - тут можно посмотреть id нужной записи");
             Console.WriteLine("getone(получить подробную информацию о записи по id)");
             Console.WriteLine("remove(удалить запись по id)");
             Console.WriteLine("upgrate(изменить поля записи по id)");
