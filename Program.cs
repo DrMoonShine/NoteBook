@@ -52,6 +52,9 @@ namespace NoteBook
             bool check = false;
             while (check == false)
             {
+                //Самое длинное имя Барнаби Мармадюк Алоизий Бенджи Кобвеб Дартаньян Эгберт Феликс Гаспар Гумберт Игнатий Джейден...
+                //...Каспер Лерой Максимилиан Недди Объяхулу Пепин Кьюллиам Розенкранц Секстон Тедди Апвуд Виватма Уэйленд Ксилон Ярдли Закари Усански(это все 1 имя -_-)
+                //Поэтому ограничения на длину b cvbdjks ytn(не забываем про X Æ А-12) 
                 name = Console.ReadLine();
                 if (string.IsNullOrEmpty(name))
                 {
@@ -379,10 +382,15 @@ namespace NoteBook
                                 int day = 1;
                                 while (check == false)
                                 {
-                                    Console.WriteLine("Введите новую дату рождения в формате год.месяц.день");
+                                    Console.WriteLine("Введите новую дату рождения в формате год.месяц.день год месяц день");
                                     string d = Console.ReadLine();
                                     string[] temp = d.Split('.');
-
+                                    while (temp.Length != 3)
+                                    {
+                                        Console.WriteLine("Неверный формат! Попробуйте еще раз");
+                                        d = Console.ReadLine();
+                                        temp = d.Split('.', ' ');
+                                    }
                                     if (int.TryParse(temp[0], out year) == false)
                                     {
                                         Console.WriteLine("Год введен не верно");
